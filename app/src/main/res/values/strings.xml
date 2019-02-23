@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">CUPA Adoption</string>
+    <string name="tab_aa">Active Adoptions</string>
+    <string name="tab_pa">Passive Adoptions</string>
+    <string name="tab_fc">Foster Care</string>
+    <string name="tab_sa">Successful Adoptions</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sa">Successful Adoptions</string>
+    <string name="aa">Active Adoption</string>
+    <string name="pa">Passive Adoptions</string>
+
+    <string name="whatfc">What is Foster Care?</string>
+    <string name="whatfcex">
+        Some animals, especially young ones need a safe and\n
+        nurturing environment to grow and recover.\n
+        They require direct individual attention that no\n
+        shelter can provide.\n\n
+
+        This is where YOU can step in to make a difference.\n\n
+
+        Foster parents help CUPA by taking home one of our\n
+        shelter animals, either a dog or cat, and taking\n
+        full care of it until a permanent home is found.\n
+        This includes covering the basic needs and costs\n
+        associated with keeping a pet, such as food and\n
+        everyday medication if required. If the foster pet\n
+        is need of a major surgery or expensive medication,\n
+        it can be done in consultation with CUPA.\n\n
+
+        The pet will require the complete attention of the\n
+        Foster parent and the time it needs to be ready for\n
+        adoption. Fostering a pet is an extremely rewarding\n
+        experience, as it will socialise the pet to a home\n
+        environment and possibly get it used to being around\n
+        other pets and people too. All of this other than\n
+        the fact that, you will get to cuddle with your\n
+        foster child and enjoy his or her company without\n
+            a permanent commitment!\n
+    </string>
+
+    <string name="canifc">Can I provide Foster Care?</string>
+    <string name="canifcex">
+        You can certainly provide Foster Care to an animal\n
+        when you are:-\n\n
+        1. Able to give your complete attention to\n
+           recovering or young animal.\n
+        2. If you are fostering a dog, take him or her for\n
+           regular walks.\n
+        3. Make regular visits to the clinic and monitor\n
+           her recovery and growth.\n
+        4. Able to cover bulk costs of food, basic\n
+           medication, maintenance expenses.\n
+           (CUPA can pitch in too!)\n
+        5. Ensure that the pet is vaccinated and sterilised\n
+           before giving it up for adoption.\n
+        6. Able to free up the space required to\n
+           accommodate the animal in your home.\n
+        7. When all members of the family are vaccinated\n
+           against rabies and are open to having\n
+           a pet at home.\n
+        8. It would be ideal if former pet owners take up\n
+           a Foster animal, as extra sensitivity towards\n
+           animals is required for successful and\n
+           smooth fostering.\n
+    </string>
+
+    <string name="howlongfc">How long do I need to Foster?</string>
+    <string name="howlongfcex">
+        It is ideally recommended that the animal be in\n
+        Foster Care till a permanent and loving home is found.\n
+        This is because too many transfers can be confusing\n
+        and difficult for a young one. The animal can either\n
+        be adopted or taken back to the shelter if a space\n
+        opens up, both of which could take anywhere from\n
+        2 weeks to 2 months. It is also very likely that our\n
+        shelter will be full – we receive over 20 calls a day\n
+        for the rescue of injured or abandoned animals.\n\n
+
+        As for adoption the Foster Parent will have to look for\n
+        a suitable family for their ward, through social media,\n
+        newspaper advertisements, etc. They would also have to\n
+        screen families who are interested in adopting their ward,\n
+        in order to make sure the animal is put into a loving\n
+        and safe home.\n\n
+
+        The permanent adopter will have to present an ID proof\n
+        and address proof. Also, to term the adoption as\n
+        “successful” a representative will make a home visit\n
+        2 to 4 weeks after the adoption, to check if the animal\n
+        is doing well and is comfortable in its new home.\n
+    </string>
+</resources>
