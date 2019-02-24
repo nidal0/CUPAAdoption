@@ -5,9 +5,10 @@
     <string name="tab_fc">Foster Care</string>
     <string name="tab_sa">Successful Adoptions</string>
     <string name="action_settings">Settings</string>
+    <string name="transition_string">hello</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imageaa">Image of your potential pet</string>
+    <string name="moredetailsaa">More Details +</string>
     <string name="sa">Successful Adoptions</string>
     <string name="aa">Active Adoption</string>
     <string name="pa">Passive Adoptions</string>

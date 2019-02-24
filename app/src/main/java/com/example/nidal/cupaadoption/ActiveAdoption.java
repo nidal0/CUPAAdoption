@@ -2,10 +2,16 @@ package com.example.nidal.cupaadoption;
 
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -14,6 +20,9 @@ import android.view.ViewGroup;
 public class ActiveAdoption extends Fragment {
 
 
+    View v;
+    private RecyclerView aarecyclerView;
+    private List<CardActiveAdoption> cardaa;
     public ActiveAdoption() {
         // Required empty public constructor
     }
@@ -23,7 +32,41 @@ public class ActiveAdoption extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_active_adoption, container, false);
+        v = inflater.inflate(R.layout.fragment_active_adoption, container, false);
+        aarecyclerView = v.findViewById(R.id.aarecyclerView);
+        AARecyclerViewAdapter aaRecyclerViewAdapter = new AARecyclerViewAdapter(getContext(), cardaa);
+        int NoOfColaa = 2;
+        aarecyclerView.setLayoutManager(new GridLayoutManager(getActivity(),NoOfColaa));
+        aarecyclerView.setAdapter(aaRecyclerViewAdapter);
+        return v;
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        cardaa = new ArrayList<>();
+
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+        cardaa.add(new CardActiveAdoption("Doge", "Location: Second Chance Adoption Home", R.drawable.ic_launcher_foreground));
+
+    }
 }
